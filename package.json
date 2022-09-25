@@ -1,0 +1,29 @@
+{
+  "name": "nong",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@capacitor/android": "^4.3.0",
+    "@capacitor/core": "^4.3.0",
+    "@capacitor/ios": "^4.3.0",
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*",
+    "vant": "^3.6.2",
+    "vue": "^3.0.4",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^4.3.0",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/compiler-sfc": "^3.0.4",
+    "unplugin-vue-components": "^0.22.7",
+    "vite": "^3.0.8",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  }
+}
